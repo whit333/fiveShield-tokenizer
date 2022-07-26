@@ -3,7 +3,7 @@ RegisterCommand('normal-execute', function()
 end)
 
 RegisterCommand('cheater-execute', function()
-    TriggerServerEvent('m3_houserobbery:giveMoney', 500')
+    TriggerServerEvent('m3_houserobbery:giveMoney', 500)
 end)
 
 exports('Exec', function(event, payload)
