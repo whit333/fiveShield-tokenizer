@@ -7,5 +7,5 @@ RegisterCommand('cheater-execute', function()
 end)
 
 exports('Exec', function(event, payload)
-    TriggerServerEvent('fiveshield-tokenizer:e', event, payload)
+    TriggerServerEvent('fiveshield-tokenizer:e', payload)
 end)
